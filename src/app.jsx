@@ -1,6 +1,5 @@
 import React from "react";
 import "./app.css";
-
 import { HashRouter, NavLink, Route, Routes } from "react-router-dom";
 import { Home } from "./home/home";
 import { Projects } from "./projects/projects";
@@ -18,26 +17,17 @@ export default function App() {
         <nav>
           <ul>
             <li>
-              <NavLink
-                to="/"
-                className={({ isActive }) => (isActive ? "active" : undefined)}
-              >
+              <NavLink to="/" className={({ isActive }) => (isActive ? "active" : undefined)}>
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink
-                to="/projects"
-                className={({ isActive }) => (isActive ? "active" : undefined)}
-              >
+              <NavLink to="/projects" className={({ isActive }) => (isActive ? "active" : undefined)}>
                 Projects
               </NavLink>
             </li>
             <li>
-              <NavLink
-                to="/resume"
-                className={({ isActive }) => (isActive ? "active" : undefined)}
-              >
+              <NavLink to="/resume" className={({ isActive }) => (isActive ? "active" : undefined)}>
                 Resume
               </NavLink>
             </li>
@@ -53,44 +43,6 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
-
-      <footer>
-        <p>
-          <strong>Hamid Jaeyoung Jahangir</strong>
-        </p>
-
-        <div className="fine-print">
-          <a
-            className="social-link"
-            href="https://github.com/hamidjae/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="social-icon"
-              src={`${import.meta.env.BASE_URL}github.svg`}
-              alt=""
-            />
-            GitHub
-          </a>
-
-          <span>|</span>
-
-          <a
-            className="social-link"
-            href="https://www.linkedin.com/in/hamid-jaeyoung/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="social-icon"
-              src={`${import.meta.env.BASE_URL}linkedin.svg`}
-              alt=""
-            />
-            LinkedIn
-          </a>
-        </div>
-      </footer>
     </HashRouter>
   );
 }
