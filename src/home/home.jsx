@@ -2,7 +2,7 @@ import React from 'react';
 
 export function Home() {
   return (
-  <main>
+  <main id="homepage">
     <section className="banner">
       <img className="banner-img" src="/is120-project1-hamidjaeyoung-jahangir/meanddad.jpg" alt="Picture of me and my father" />
       <div className="banner-text">
@@ -13,7 +13,12 @@ export function Home() {
       </div>
     </section>
     <section className="sectioned">
-      <h2 className="section-title">About Me</h2>
+    <h2 className="section-title">
+      <span className="section-title-row">
+      <img className="section-icon" src={`${import.meta.env.BASE_URL}info.svg`} alt="Image of an alert icon."/>
+      About Me
+      </span>
+    </h2>
 
       <article className="card">
         <h3>Current Work</h3>
