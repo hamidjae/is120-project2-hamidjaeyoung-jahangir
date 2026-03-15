@@ -1,21 +1,20 @@
 import React from "react";
 import "./app.css";
 
-import { BrowserRouter, NavLink, Route, Routes } from "react-router-dom";
+import { HashRouter, NavLink, Route, Routes } from "react-router-dom";
 import { Home } from "./home/home";
 import { Projects } from "./projects/projects";
 import { Resume } from "./resume/resume";
 
 export default function App() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <HashRouter>
       <header>
         <div className="brand">
           <h1 id="site-title">Hamid Jaeyoung Jahangir</h1>
           <p className="tagline">Creatively aspiring, aspiring to create.</p>
         </div>
 
-        {/* Checks what tab it's selecting, then applies the active class onto it */}
         <nav>
           <ul>
             <li>
@@ -92,7 +91,7 @@ export default function App() {
           </a>
         </div>
       </footer>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
