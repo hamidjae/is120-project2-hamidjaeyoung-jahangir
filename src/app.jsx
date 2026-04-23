@@ -22,7 +22,11 @@ export default function App() {
   }, [darkMode]);
 
   return (
-    <BrowserRouter basename="/is120-project2-hamidjaeyoung-jahangir">
+    <BrowserRouter
+      basename={
+        import.meta.env.DEV ? "/" : "/is120-project4-hamidjaeyoung-jahangir"
+      }
+    >
       <header>
         <div className="brand">
           <h1 id="site-title">Hamid Jaeyoung Jahangir</h1>
@@ -33,7 +37,9 @@ export default function App() {
               <li>
                 <NavLink
                   to="/"
-                  className={({ isActive }) => (isActive ? "active" : undefined)}
+                  className={({ isActive }) =>
+                    isActive ? "active" : undefined
+                  }
                 >
                   Home
                 </NavLink>
@@ -41,7 +47,9 @@ export default function App() {
               <li>
                 <NavLink
                   to="/projects"
-                  className={({ isActive }) => (isActive ? "active" : undefined)}
+                  className={({ isActive }) =>
+                    isActive ? "active" : undefined
+                  }
                 >
                   Projects
                 </NavLink>
@@ -49,7 +57,9 @@ export default function App() {
               <li>
                 <NavLink
                   to="/resume"
-                  className={({ isActive }) => (isActive ? "active" : undefined)}
+                  className={({ isActive }) =>
+                    isActive ? "active" : undefined
+                  }
                 >
                   Resume
                 </NavLink>
@@ -87,6 +97,11 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
           >
+            <img
+              className="social-icon"
+              src={`${import.meta.env.BASE_URL}github.svg`}
+              alt="GitHub icon"
+            />
             GitHub
           </a>{" "}
           |{" "}
@@ -96,6 +111,11 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
           >
+            <img
+              className="social-icon"
+              src={`${import.meta.env.BASE_URL}linkedin.svg`}
+              alt="LinkedIn icon"
+            />
             LinkedIn
           </a>
         </p>

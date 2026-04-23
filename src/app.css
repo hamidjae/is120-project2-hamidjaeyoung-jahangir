@@ -90,7 +90,7 @@ header {
   grid-template-columns: 1fr auto;
   gap: 1rem;
   color: var(--text);
-  background-image: url("/is120-project2-hamidjaeyoung-jahangir/stacked-steps-haikei.svg");
+  background-image: url("/stacked-steps-haikei.svg");
   border-bottom: 6px solid var(--border);
   padding: 18px;
 }
@@ -555,7 +555,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
-  background-image: url("/is120-project2-hamidjaeyoung-jahangir/stacked-steps-haikei.svg");
+  background-image: url("/stacked-steps-haikei.svg");
   border-top: 6px solid var(--border);
   padding: 18px;
   color: var(--text);
