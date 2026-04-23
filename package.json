@@ -1,5 +1,5 @@
 {
-  "name": "is120-project2-hamidjaeyoung-jahangir",
+  "name": "is120-project4-hamidjaeyoung-jahangir",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hamidjae/is120-project2-hamidjaeyoung-jahangir.git"
+    "url": "git+https://github.com/hamidjae/is120-project4-hamidjaeyoung-jahangir.git"
   },
-  "homepage": "https://hamidjae.github.io/is120-project2-hamidjaeyoung-jahangir/",
+  "homepage": "https://hamidjae.github.io/is120-project4-hamidjaeyoung-jahangir/",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hamidjae/is120-project2-hamidjaeyoung-jahangir/issues"
+    "url": "https://github.com/hamidjae/is120-project4-hamidjaeyoung-jahangir/issues"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.1.4",
