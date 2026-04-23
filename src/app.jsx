@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./app.css";
-import { BrowserRouter, NavLink, Route, Routes } from "react-router-dom";
+import { HashRouter, NavLink, Route, Routes } from "react-router-dom";
 import { Home } from "./home/home";
 import { Projects } from "./projects/projects";
 import { Resume } from "./resume/resume";
@@ -22,11 +22,7 @@ export default function App() {
   }, [darkMode]);
 
   return (
-    <BrowserRouter
-      basename={
-        import.meta.env.DEV ? "/" : "/is120-project4-hamidjaeyoung-jahangir"
-      }
-    >
+    <HashRouter>
       <header>
         <div className="brand">
           <h1 id="site-title">Hamid Jaeyoung Jahangir</h1>
@@ -120,7 +116,7 @@ export default function App() {
           </a>
         </p>
       </footer>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
