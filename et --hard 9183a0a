@@ -1,0 +1,36 @@
+[33mf5d9447[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Create jekyll-gh-pages.yml
+[33m26e174f[m Delete .github/workflows directory
+[33meb5333a[m Update vite.config.js
+[33m9183a0a[m Dark mode
+[33m31274d2[m Updated live link!
+[33m05df2b3[m More bugfixing!
+[33m159f38c[m Ran npm run build
+[33m5436328[m Restoring my old app.jsx
+[33mac90545[m More REACT bugfixing!
+[33ma01dd89[m Ran npm run build
+[33m723065e[m More React bugfixing!
+[33mb1a2c16[m More React bugfixing
+[33m62a0aea[m Merge branch 'main' of https://github.com/hamidjae/is120-project2-hamidjaeyoung-jahangir
+[33m37e5dc7[m More react bug fixing..
+[33md2d0e36[m Create jekyll-gh-pages.yml
+[33m232bd66[m Delete .github/workflows directory
+[33mc6501b5[m Fixing routing errors..
+[33ma7df22a[m Create jekyll-gh-pages.yml
+[33mda03113[m Project 2 finished.
+[33m7ab811d[m Update README.md
+[33mefba222[m Some more router fixing with help from Stack Overflow
+[33m2412a6e[m Some more router fixing.. changing the base router with help from Stack Overflow
+[33md1cea28[m Fixing some more router stuff
+[33m70ac855[m Merge branch 'main' of https://github.com/hamidjae/is120-project1-hamidjaeyoung-jahangir
+[33mca8e580[m Rebuilt the website after noticing some errors
+[33m385e07e[m Create deploy.yml
+[33m8b40aa9[m Creating the vite config for deployment
+[33mec30523[m Forgot to build the website before deploying
+[33m2d0ecd1[m Using ` to fix README.md treating <> as actual tags
+[33mc125d0c[m Filled out README
+[33m20a5736[m Merge branch 'main' of https://github.com/hamidjae/is120-project1-hamidjaeyoung-jahangir
+[33mdca0319[m Converted to React
+[33m0dcb511[m Converted into React.
+[33m7393412[m Converted into React.
+[33mfb65a52[m HTML version (Will now be porting to React)
+[33m4305874[m Create README.md
