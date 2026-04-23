@@ -1,6 +1,6 @@
 # IS120 Project 1: Personal Portfolio
 
-[Live Link](https://hamidjae.github.io/is120-project2-hamidjaeyoung-jahangir/)
+[Live Link](https://hamidjae.github.io/is120-project4-hamidjaeyoung-jahangir/)
 
 This project allowed me to combine the knowledge I gained from this class, as well as the CS260 Web Development class to develop a website in HTML, and then port it over into React.
 
